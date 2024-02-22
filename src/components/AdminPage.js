@@ -107,7 +107,7 @@ export default function AdminPage(){
                         </div>
                     </Col>
                     <Col md="3">
-                        <div><p>And yeah, sekoni is my name</p></div>
+                        <div className="school"><p>GoodLuck!!!</p></div>
                     </Col>
                 </Row>
             </Container>
