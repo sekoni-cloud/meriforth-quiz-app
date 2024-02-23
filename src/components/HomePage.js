@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Container, Row, Col, Button} from "react-bootstrap";
 import "../index";
@@ -33,6 +33,9 @@ export default function HomePage(){
     const[event, setEvent] = useState(events);
     const[query, setQuery] =useState("");
     const[input, setInput] = useState("");
+    useEffect(()=>{
+        document.title = "Quiz"
+    }, [])
     
     const searchQuestion = (id)=>{
         const question = data.find(item=>item.id === id)
@@ -55,21 +58,12 @@ export default function HomePage(){
         });
         console.log(newArray);
         setEvent(newArray);
-        /*setEvent({
-            id: "",
-            instruction: "",
-            question: "",
-            option: "",
-            flag:false
-        });*/
-        //setInput("")
+        
     };
    
     const handleInputChange=(e)=>{
         
-        //e.preventDefault()
         setInput(e.target)
-        //event.target.reset()
     }
     const clearInput=()=>{
         setInput("")

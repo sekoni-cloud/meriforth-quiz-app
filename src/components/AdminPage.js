@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Container, Row, Col, Button} from "react-bootstrap";
 import "../index";
@@ -32,6 +32,9 @@ export default function AdminPage(){
     const[event, setEvent] = useState(events);
     const[query, setQuery] =useState("");
     const[input, setInput] = useState("");
+    useEffect(()=>{
+        document.title = "Admin"
+    }, [])
     
     const searchQuestion = (id)=>{
         const question = data.find(item=>item.id === id)
@@ -54,23 +57,15 @@ export default function AdminPage(){
         });
         console.log(newArray);
         setEvent(newArray);
-        /*setEvent({
-            id: "",
-            instruction: "",
-            question: "",
-            option: "",
-            flag:false
-        });*/
-        //setInput("")
+
     };
     const clearInput=()=>{
         setInput("")
     }
     const handleInputChange=(e)=>{
-        
-        //e.preventDefault()
+
         setInput(e.target)
-        //event.target.reset()
+
     }
     
     return(
@@ -85,7 +80,9 @@ export default function AdminPage(){
                         <label htmlFor="header-search" 
                         className="search-text"><h4
                         style={{fontSize:'100%'}}>Pick a number :  </h4></label>
-                        <input placeholder="Choose a number..." 
+                        <input 
+                        value={input}
+                        placeholder="Choose a number..." 
                         className="search-container"
                         onChange={event=>{handleInputChange(event.target.value);setQuery(Number(event.target.value));console.log(input);}}/>
                         <Button 
