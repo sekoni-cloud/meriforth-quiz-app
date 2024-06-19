@@ -130,7 +130,7 @@ export const data = [
         id:50,
         instruction:"",
         question: "What is a form of Art in Nigeria?",
-        option: ["African Paintings","Bally dancing","Posters","Traditional African Sculpture"],
+        option: ["African Paintings","Ballet dancing","Posters","Traditional African Sculpture"],
         answer: "D",
         flag: false
     },
@@ -471,9 +471,9 @@ export const data = [
     {
         id:11,
         instruction:"",
-        question: "Which of the following best describes the concept of quid pro quo?",
-        option: ["A latin phrase meaning 'something for something'","A legal meaning related to conceptual agreements","A type of negotiation tactic often used in business deals","An exchange of favours or benefits" ,"A form of bribery"],
-        answer: "",
+        question: "Which African counytry is closet to Europe?",
+        option: ["Tunisia","Mali","Libya","Morocco" ],
+        answer: "D",
         flag: false
     },
     {
@@ -486,17 +486,17 @@ export const data = [
     },
     {
         id: 85,
-        instruction:"",
-        question: "Which of the following countries is not in the middle east?",
-        option:["Saudi Arabi", "Isreal", "China","Qatar" ],
-        answer:"C",
+        instruction:"Choose the best options for the following question",
+        question: "A play that ends sadly is called -------",
+        option:["Tragedy", "Comedy", "Tragic Comedy","Melo drama" ],
+        answer:"A",
         flag: false
     },
     {
         id: 30,
         instruction:"",
-        question:"English is to England, ______ is to Netherland",
-        option:["Dutch", "Netherlander", "British", "Netherish"],
+        question:"Who wrote the play Romeo and Juliet? ",
+        option:["William Shakespeare", "Alexander Pushkin", "Fyodor Dostoyevsky", "Victor Hugo"],
         answer:"A",
         flag: false
     },
@@ -519,49 +519,49 @@ export const data = [
     {
         id: 90,
         instruction: "",
-        question:"Burj Khalifa, known as the tallest buiding in the world is in which of the following cities",
-        option: ["Dubai","Tokyo", "London", "New York"],
+        question:"The sun smiles at us everyday is an example of -------",
+        option: ["Personification","Euphemism", "Irony", "Paradox"],
         answer: "A",
         flag: false
     },
     {
         id: 52, 
-        instruction: "",
-        question:"In which of the following years was Meriforth College established?",
-        option: ["2011", "2012", "2013", "2014"],
+        instruction: "What is the correct tense in the following sentence?",
+        question:"The team will have completed the project by next wee",
+        option: ["Present continuos", "Past perfect", "Future perfect", "Simple past"],
         answer: "C",
         flag: false
     },
     {
         id:15,
         instruction:"",
-        question:"What was the primary cause of dispute between Chad and Nigeria?",
-        option:["Ethnic and religious tension ","Territorial disagreement", "Control over Bakasi Peninsula", "Fishing rights in Gulf of Guinea" ],
-        answer: "C",
+        question:"What isthe capital city of Turkey?",
+        option:["Ankara","Kampala", "Kabul", "Algiers" ],
+        answer: "B",
         flag: false
     },
     {
         id: 65,
         instruction: "",
-        question:"Nigerian is to Nigeria, _______ is to Poland",
-        option: ["Polander","Polish", "Pol", "Polandian"],
-        answer: "B",
+        question:"Which planet is known as Red Planet?",
+        option: ["Venus","Earth", "Mars", "Jupiter"],
+        answer: "C",
         flag: false
     },
     {
         id: 40,
         instruction:"",
-        question:"Someone from Wales is called a ________",
-        option:["Welsh","Walian","Welish", "Whale"],
-        answer: "A",
+        question:"Which of the following is not in Africa?",
+        option:["Morocco","Yemen","Sudan", "Algeria"],
+        answer: "B",
         flag: false
     },
     {
         id: 86,
         instruction:"",
-        question:"Colosseum one of the greatest work of human architecture is situated in which city",
-        option:["Athens", "Greece", "Rome", "Jerusalem"],
-        answer: "C",
+        question:"How many bones are in the body ofan adult human?",
+        option:["230", "206", "250", "210"],
+        answer: "B",
         flag: false
     },
     {
@@ -583,73 +583,73 @@ export const data = [
     {
         id: 51,
         instruction:"",
-        question:"What is the plural of deer?",
-        option:["Deers", "Deeries", "Deer", "Deeres"],
-        answer: "C",
+        question:"What chemical element is themain component of human bones and teeth?",
+        option:["Calcium", "Iron", "Sodium", "Magnesium"],
+        answer: "A",
         flag: false
     },
     {
         id: 26,
         instruction:"",
-        question:"Which sentence is written in the passive voice?",
-        option:["The cat chased the mouse","The mouse was chased by the cat", "Chase the cat, said the mouse", "The mouse was chasing the cat"],
-        answer: "B",
+        question:"Which is the capital city of Italy?",
+        option:["Venice","Florence", "Rome", "Milan"],
+        answer: "C",
         flag: false
     },
     {
         id: 9,
         instruction: "",
-        question:"What is the superlative form of the adjective [tall]?",
-        option:["Tallest", "Short", "Long", "High"],
+        question:"What animal is the symbol of China?",
+        option:["Panda", "Elephant", "Tiger", "Leo"],
         answer: "A",
         flag: false
     },
     {
         id: 34,
         instruction: "",
-        question:"Who painted the Mona Lisa?",
-        option: ["Neil Armstrong","J.k Rowling", "Leonardo da Vinci", "Elon Musk"],
+        question:"Which vitamin is often referred to as the [sunshine vitamin]?",
+        option: ["Vitamin A","Vitamin B", "Vitamin C", "Vitamin D"],
         answer: "C",
         flag: false
     },
     {
         id: 89,
         instruction:"",
-        question: "Which state is regarded as the The Confluence State",
-        option:["Kogi", "Yobe", "Akwa-Ibom", "Kebbi"],
-        answer: "A",
+        question: "Nupe Ethnic group is predominatly found in which Nigerian state?",
+        option:["Kwara State", "Kogi State", "Benue State", "Niger State"],
+        answer: "D",
         flag: false
     },
     {
         id: 62,
         instruction:"",
-        question: "What does the idiom 'All hands on deck' typically mean? ",
-        option:["An instruction to halt all activities","A warning of crisis", "Signal to evacuate immediately", "A call for everyone to work together"],
-        answer: "D",
+        question: "Tin is majorly found in ",
+        option:["Jos","Enugu", "Enugu", "Owerri"],
+        answer: "A",
         flag: false
     },
     {
         id: 42,
         instruction:"",
-        question: "What is the capital city of Canada ",
-        option:["Vancouer","Ottawa","Toronto", "Quebec City"],
+        question: "What is the Nigerian Police Motto",
+        option:["Police is your friend","Security is paramount","Security and safety", "See it, say it"],
         answer: "B",
         flag: false
     },
     {
         id: 1,
         instruction:"",
-        question: "Micheal Phelp, the most decorated athlete in Olympics performed in which sports?",
-        option:["Swimming","Sprint","Football", "Hurdles"],
+        question: "Who is known as the King Of Afro Beats in Nigeria?",
+        option:["Fela Anikulapo Kuti","Sunny Ade","Shina Peters", "Wizkid"],
         answer: "A",
         flag: false
     },
     {
         id: 75,
         instruction:"",
-        question: "Which country are the Pyramid of Giza located?",
-        option:["Iran","Irag","Egypt", "Saudi Arabia"],
-        answer: "C",
+        question: "Who was Nigeria's first Senate president?",
+        option:["Evan Enwerem","Nnamdi Azikwe","Chuba Okadigbo", "Pius Anyim"],
+        answer: "B",
         flag: false
     },
     {
@@ -663,88 +663,88 @@ export const data = [
     {
         id: 28,
         instruction:"",
-        question: "What does DNA stand for?",
-        option:["Deoxyribose Nitrogen Acid","Deoxyribonucleic Acid","Deoxyribonicle Acid", "Deoxidized Nucleic Acid"],
-        answer: "B",
+        question: "What is the slogan of Taraba State?",
+        option:["Nature's gift to the nation","The power state","Land of equity", "Coal city state"],
+        answer: "A",
         flag: false
     },
     {
         id: 93,
         instruction:"",
-        question: "Which of the following is not a capital of South Africa?",
-        option:["Johannesburg","Cape Town","Durban", "Pretoria"],
-        answer: "C",
+        question: "What is the slogan of Osun State?",
+        option:["Sunshine state","Gateway state","Home of peace and tourism", "God's own state"],
+        answer: "A",
         flag: false
     },
     {
         id: 4,
         instruction:"",
-        question: "Nelson Mandela fough against apartheid in which of the following countries?",
-        option:["USA","Canada","South Africa", "Nigeria"],
-        answer: "C",
+        question: "What is the name of the science that studies the past life on Earth?",
+        option:["Palaeontology","Astronomy","Anthropology", "Geology"],
+        answer: "A",
         flag: false
     },
     {
         id: 66,
         instruction:"",
-        question: "What is the capital city of Finland?",
-        option:["Helsinki","Berlin","Tokyo", "Oslo"],
-        answer: "A",
+        question: "When do humans use more facial muscles?",
+        option:["While smiling","While frowning","While sleeping", "While talking"],
+        answer: "B",
         flag: false
     },
     {
         id: 32,
         instruction:"",
-        question: "What does Hakuna Mata mean?",
-        option:["Capture the moment","No worries","Make hay while the sun shine", "Love your neighbour as yourself"],
-        answer: "B",
+        question: "Ecology deals with",
+        option:["Birds","Cell formation","Relation between organisms and their environment", "Tissues"],
+        answer: "C",
         flag: false
     },
     {
         id: 79,
         instruction:"",
-        question: "Where is known as the happiest place on Earth?",
-        option:["Paris","Jurassic Amusement Park","Madrid", "Disneyland"],
-        answer: "B",
+        question: "What is the phobia of thunder and rain?",
+        option:["Agoraphobia","Ombrophobia","Acrophobia", "Claustrophobia"],
+        answer: "B. A - fear of crowd, Acrophobia- fear of height, Claustrophobia- fear of tight , closed places",
         flag: false
     },
     {
         id: 24,
         instruction:"",
-        question: "A baby kangaroo is called ____",
-        option:["Kid","Calf","Joey", "Doe"],
-        answer: "C",
+        question: "Which country is known as the pirthplace of Olympic games",
+        option:["Greece","Rome","Egypt", "China"],
+        answer: "A",
         flag: false
     },
     {
         id: 57,
         instruction:"",
-        question: "Which of these is a national symbol of authority in Nigeria?",
-        option:["The Maze","The Coat of Arm","The Nigerian Flag", "The Naira"],
+        question: "What is considered as the lung of the earth?",
+        option:["Amazon rainforest","The mississipi river","The sahara", "Everest"],
         answer: "A",
         flag: false
     },
     {
         id: 98,
         instruction:"",
-        question: "What is the capital city of Brazil ",
-        option:["Madrid","Barcelona","Argentina", "Brasilia"],
+        question: "What gas is used to extinguish fire?",
+        option:["Oxygen","Nitrogen","Carbondioxide", "Hydrogen"],
         answer: "D",
         flag: false
     },
     {
         id: 16,
         instruction:"",
-        question: "What is the capital city of India ",
-        option:["Dubai","Mexico City","New Delhi", "Beijing"],
-        answer: "C",
+        question: "Who was the first woman to win a Nobel Prize?",
+        option:["Marie Curie","Mary Slessor","Ada Lovelace", "Janaki Ammal"],
+        answer: "A",
         flag: false
     },
     {
         id: 44,
         instruction:"",
-        question: "The city of Dubai can be found in which of the following countries?",
-        option:["Saudi Arabi","United Arab Emirate","Qatar", "China"],
+        question: "Which planet is known as BLUE PLANET?",
+        option:["Pluto","Earth","Saturn", "Mercury"],
         answer: "B",
         flag: false
     },
@@ -759,8 +759,8 @@ export const data = [
     {
         id: 39,
         instruction:"",
-        question: "The first black American president has a citizenship of which of the following African countries",
-        option:["Algeria","South Africa","Kenya", "Morocco"],
+        question: "Imperative pronouns is used to _____",
+        option:["Ask quetion","Make a statement","Give command ", "Ask for permission"],
         answer: "C",
         flag: false
     },
