@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import { Container, Row, Col, Button} from "react-bootstrap";
 import "../index";
 import AdminPageEvent from "./AdminPageEvent";
-import {data} from "./questions2"
+import {data} from "./questions"
 
 export default function AdminPage(){
       
