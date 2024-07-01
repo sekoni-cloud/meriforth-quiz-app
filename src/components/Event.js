@@ -63,7 +63,7 @@ export default function Event({state}){
                             
                         </ol>
                     </div>
-    
+                    
                 </Col>
             </div>
             

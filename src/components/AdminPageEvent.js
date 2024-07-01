@@ -56,8 +56,9 @@ export default function AdminPageEvent({state}){
                             <li>{optionArr[3]?optionArr[3]:""}</li>
                             <li>{optionArr[4]?optionArr[4]:""}</li>
                         </ol>
+                        
                     </div>
-    
+                    
                 </Col>
                 <Row className=""><p>{state.answer}</p></Row>
             </div>

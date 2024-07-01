@@ -1,5 +1,6 @@
 import React from "react";
-import { useState, useEffect } from 'react';
+import { useState, useEffect} from 'react';
+//import { MyContext } from "../Context";
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Container, Row, Col, Button} from "react-bootstrap";
 import "../index";
