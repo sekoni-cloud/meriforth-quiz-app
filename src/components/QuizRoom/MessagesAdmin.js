@@ -1,5 +1,5 @@
 import './quiz-room.css';
-import { useState, useEffect, useRef} from 'react';
+import { useState, useEffect, useRef, useCallback} from 'react';
 import {data} from "../questions2"
 import AdminPageEvent from "../AdminPageEvent";
 import { Container} from 'react-bootstrap';
@@ -14,32 +14,33 @@ export default function Messages ({ socket, query/*, event, setEvent*/ }){
       console.log(question);
       return question
     }
-    const addEvent = (id)=> {
-        console.log(id);
-        var newArray = [...event];
-        console.log(newArray);
-        let tempData = [...data]
-        //console.log(tempData);
-        const index = tempData.indexOf(searchQuestion(Number(id)));
-        console.log(index);
-        const newData = tempData[index];
-        //var newData = searchQuestion(input);
-        console.log(newData);
-        newArray.push({
-            answer: newData?.answer,
-            id: newData?.id,
-            instruction: newData?.instruction,
-            question: newData?.question,
-            option: newData?.option,
-            flag: newData?.flag
-        });
-        console.log(newArray);
-        setEvent(newArray);
-    
-        }
+    const addEvent = useCallback((id)=> {
+      console.log(id);
+      var newArray = [...event];
+      console.log(newArray);
+      let tempData = [...data]
+      //console.log(tempData);
+      const index = tempData.indexOf(searchQuestion(Number(id)));
+      console.log(index);
+      const newData = tempData[index];
+      //var newData = searchQuestion(input);
+      console.log(newData);
+      newArray.push({
+          answer: newData?.answer,
+          id: newData?.id,
+          instruction: newData?.instruction,
+          question: newData?.question,
+          option: newData?.option,
+          flag: newData?.flag
+      });
+      console.log(newArray);
+      setEvent(newArray);
+  
+  },[event])
   // Runs whenever a socket event is recieved from the server
   useEffect(() => {
     socket.on('receive_message', (data) => {
+      
       console.log("Here is "+data);
       
       //addEvent(data.message)
