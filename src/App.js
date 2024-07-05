@@ -10,8 +10,9 @@ import Chat from './components/QuizRoom/Index';
 import ChatUsers from './components/QuizRoom/Index2';
 import PrivateRoute from './components/PrivateRoute';
 
-//const socket = io("https://meriforth-quiz-server.netlify.app", {withCredentials:true}); 
-const socket = io("https://meriforth-quiz-server.netlify.app", {
+//const socket = io("http://localhost:8000");  
+const socket = io("https://meriforth-quiz-server.netlify.app");  
+/*const socket = io("http://localhost:8000", {
   withCredentials: true,
   transportOptions: {
     polling: {
@@ -20,7 +21,7 @@ const socket = io("https://meriforth-quiz-server.netlify.app", {
       }
     }
   }
-});
+});*/
 //const socket = io("http://localhost:8000");
 function App() {
   const [questions, setQuestions] = useState([]);
